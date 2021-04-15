@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans">
+	<link rel="stylesheet" href="calendar.css">
+</head>
+<title>Calendario</title>
+<body>
+
+<button id="searchBtn">Buscar Fecha</button>
+<div class="container">
+	<header class="header">
+		<h1 class="today">Hoy:<span id="today"></span></h1>
+		
+		<!--Select Months-->
+		<select class="selectBtn" id="months"> 
+			<option class="option">-- Mes --</option>
+			<option class="option">Enero</option>
+			<option class="option">Febrero</option>
+			<option class="option">Marzo</option>
+			<option class="option">Abril</option>
+			<option class="option">Mayo</option>
+			<option class="option">Junio</option>
+			<option class="option">Julio</option>
+			<option class="option">Agosto</option>
+			<option class="option">Septiembre</option>
+			<option class="option">Octubre</option>
+			<option class="option">Noviembre</option>
+			<option class="option">Diciembre</option>
+		</select>
+		<!--Select Years-->
+		<input type="text" class="input" id="years" placeholder="Inserte el a&ntilde;o"> 
+	</header>
+	<div class="output">
+		<p id="output"></p>
+	</div>
+	<div class="week">
+		<h2 class="week-days">Domingo</h2>
+		<h2 class="week-days">Lunes</h2>
+		<h2 class="week-days">Martes</h2>
+		<h2 class="week-days">Mi&eacute;rcoles</h2>
+		<h2 class="week-days">Jueves</h2>
+		<h2 class="week-days">Viernes</h2>
+		<h2 class="week-days">S&aacute;bado</h2>
+	</div>
+	<div class="dates" id="calendar">
+		<!--<div class="date">1</div>-->
+		
+	</div>
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

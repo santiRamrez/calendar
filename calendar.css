@@ -35,8 +35,8 @@ body {
 	font-size: 26px;
 	font-weight: 300;
 	font-family: 'Helvetica';
-	padding: 20px;
-	width: 440px;
+	padding: 20px 10px;
+	width: 470px;
 	height: auto;
 }
 #today {
@@ -46,14 +46,17 @@ body {
 	font-weight: 300;
 }
 .selectBtn {
-	margin-left: 20px;
+	margin-left: 10px;
 	padding: 5px 7px;
+	width: 100px;
+	height: 30px;
 }
 .input {
 	margin-left: 10px;
 	padding: 5px 7px;
 	border: 1px solid transparent;
-	width: 120px;
+	width: 100px;
+	height: 30px;
 }
 .output {
 	width: 100%;

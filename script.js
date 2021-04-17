@@ -141,6 +141,9 @@ function renderDates() {
 	  case 6:
 		weekday = "Friday";
 	}
+	if (!month || !selectedYear) {
+		alert("Por favor actualiza el mes y el año ingresado");
+	}
 	
 	let paddingDays = week.indexOf(weekday)
 	if (selectedYear % 4 === 0 && selectedMonth == "Febrero") {
